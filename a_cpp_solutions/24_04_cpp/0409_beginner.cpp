@@ -40,10 +40,12 @@ int main() {
     int target1 = 9;
     Solution s;
     vector<int> res = s.twoSum1(v, target);
-    for (auto i : res) cout << "twoSum1: " << i << " ";
+    cout << "twoSum1: ";
+    for (auto i : res) cout << i << " ";
     cout << "\n";
 
     vector<int> res1 = s.twoSum2(v, target);
-    for (auto i : res1) cout << "twoSum2: " << i << " ";
+    cout << "twoSum2: ";
+    for (auto i : res1) cout << i << " ";
     return 0;
 }
